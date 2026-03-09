@@ -153,7 +153,8 @@ def main():
     generator_name = "google/flan-t5-small"
     chunk_tokenizer_name = "sentence-transformers/all-MiniLM-L6-v2"
 
-    out_dir = Path("outputs/full_ablation")
+    base_dir = Path(__file__).resolve().parents[1]
+    out_dir = base_dir / "outputs" / "full_ablation"
     out_dir.mkdir(parents=True, exist_ok=True)
     run_ts = datetime.now().strftime("%Y%m%d_%H%M%S")
 

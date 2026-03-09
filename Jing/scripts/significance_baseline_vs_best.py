@@ -52,7 +52,8 @@ def mcnemar_exact(baseline_correct: np.ndarray, best_correct: np.ndarray):
 
 
 def main():
-    out_dir = Path("outputs/full_ablation")
+    base_dir = Path(__file__).resolve().parents[1]
+    out_dir = base_dir / "outputs" / "full_ablation"
     run_candidates = sorted(out_dir.glob("run_summary_full_ablation_*.csv"))
     pq_candidates = sorted(out_dir.glob("per_question_full_ablation_*.jsonl"))
     if not run_candidates or not pq_candidates:
