@@ -1,0 +1,2 @@
+setting_name,n_seeds,seeds,n_examples,accuracy_mean,accuracy_std,accuracy_ci95_lo,accuracy_ci95_hi,invalid_rate_mean,invalid_rate_std,invalid_rate_ci95_lo,invalid_rate_ci95_hi,latency_ms_mean,latency_ms_std,latency_ms_ci95_lo,latency_ms_ci95_hi
+oracle_gold_support,3,"0,1,2",1000,0.8726666666666666,0.005686240703077332,0.8585412616980624,0.8867920716352707,0.0,0.0,0.0,0.0,54.0491540672568,0.12291127602864761,53.74382553127468,54.35448260323892

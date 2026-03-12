@@ -1,0 +1,4 @@
+setting_name,n_examples,seed,accuracy,invalid_rate,e2e_latency_ms
+oracle_gold_support,1000,0,0.879,0.0,54.162516572512686
+oracle_gold_support,1000,1,0.871,0.0,54.0664247488603
+oracle_gold_support,1000,2,0.868,0.0,53.91852088039741
