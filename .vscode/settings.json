@@ -1,0 +1,5 @@
+{
+  "python.defaultInterpreterPath": "/Users/yuanyuan/Documents/RAG retriever/.venv-nlp/bin/python",
+  "python.terminal.activateEnvironment": true,
+  "jupyter.jupyterServerType": "local"
+}
