@@ -1,5 +1,0 @@
-run_id,chunk_size,top_k,embedding_model,accuracy,recall_at_k,mrr,invalid_rate,retrieval_latency_ms,e2e_latency_ms,avg_input_tokens,avg_output_tokens
-llm_only_k0_validation_n200_seed0_20260305_001032,256,0,sentence-transformers/all-MiniLM-L6-v2,0.45,0.0,0.0,0.0,0.0,36.649424619972706,68.31,3.0
-rag_k1_validation_n200_seed0_20260305_001032,256,1,sentence-transformers/all-MiniLM-L6-v2,0.61,0.0,0.0,0.0,0.4731708054896444,55.559959394158795,161.835,3.0
-rag_k3_validation_n200_seed0_20260305_001032,256,3,sentence-transformers/all-MiniLM-L6-v2,0.67,0.0,0.0,0.0,0.40384169667959213,100.52077474305406,377.005,3.0
-rag_k5_validation_n200_seed0_20260305_001032,256,5,sentence-transformers/all-MiniLM-L6-v2,0.7,0.0,0.0,0.0,0.43378394446335733,165.83225044072606,576.01,3.07
